@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #feb47b);
+    color: #333;
+}
+
+header {
+    background:ffffff;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+main {
+    padding: 1rem;
+}
+
+.profile-pic {
+    float: right;
+    margin-left: 1rem;
+    width: 150px;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+}
+
+.center {
+    text-align: center;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
